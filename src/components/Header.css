@@ -1,0 +1,33 @@
+/* src/components/Header.css */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 28px;
+  background-color: #333;
+}
+
+.logo {
+  color: #fff;
+  font-size: 2.5rem;
+  font-style:oblique;
+  font-weight: bold;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 40px;
+  font-size: large;
+  font-weight: 200;
+
+}
+
+.nav-links a {
+  color: rgb(188, 85, 6);
+  text-decoration:black;
+}
+
+.nav-links a:hover {
+  text-decoration: underline;
+}

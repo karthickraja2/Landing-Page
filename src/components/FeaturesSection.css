@@ -1,0 +1,41 @@
+/* src/components/FeaturesSection.css */
+.features-section {
+  padding: 50px 20px;
+  background-color: #f7f7f7;
+  text-align: center;
+}
+
+.features-section h2 {
+  font-size: 3.5rem;
+  margin-bottom: 70px;
+}
+
+.features-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.h3{
+  text-align:end;
+}
+.feature-box {
+  max-width: 300px;
+  margin: 20px;
+  padding: 80px;
+  background-color: #fff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 40px;
+}
+
+.feature-box h3 {
+  font-size: 2.2rem;
+  margin-bottom: -17px;
+  text-align: start;
+  height: 100px;
+  color: cadetblue;
+}
+
+.feature-box p {
+  font-size: 1rem;
+  color: #555;
+}
